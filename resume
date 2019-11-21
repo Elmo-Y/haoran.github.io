@@ -1,0 +1,204 @@
+\documentclass[10pt]{article}
+
+%% paper size and margin
+\usepackage[letterpaper, margin=1.8cm]{geometry}
+
+%% no-indentation
+\setlength\parindent{0pt}
+
+%% color rule
+\usepackage[dvipsnames]{xcolor}
+\definecolor{gray}{RGB}{120,120,120}
+\newcommand{\myRule}{\textcolor{gray}{\rule[2.5mm]{18cm}{1.5pt}}}
+
+%% section title
+\newcommand{\head}[1]{\vspace{5mm}{\textbf{\textit{{\Large #1}}}}{\newline}\myRule}
+
+%% table for layout
+\usepackage{tabulary}
+\usepackage{multirow}
+
+%% figures
+\usepackage{graphicx}
+
+
+
+
+
+\begin{document}
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% title
+	
+\begin{tabular*}{7in}{ll@{\extracolsep{\fill}}r}
+	\multirow{2}{4em}{\begin{minipage}{.1\textwidth}
+		\includegraphics[width=\linewidth]{gruvi}
+	\end{minipage}}& {\Huge \textbf{\textit{Honghua Li}}} &	\textbf{\today} \\
+	~ && \texttt{howard.hhli@gmail.com} \\
+	 &\Large{\textit{~Curriculum Vit\ae}}& \texttt{http://honghuali.github.io} \\
+\end{tabular*}
+\vspace{10mm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\head{Academic Position}
+
+	Visiting Researcher (2015~--)\\
+	Interdisciplinary Research Center,
+	Shandong University, China
+	
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\head{Education}
+
+	Ph.D. in Computing Science (2010 -- 2015)\\
+	Simon Fraser University, Canada\\
+	Advisors: Hao (Richard) Zhang, and Daniel Cohen-Or\\
+	Dissertation: \textit{Shape Compaction via Stacking and Folding}\\
+	GPA: 4.0/4.3
+	\\
+	\\
+	Master's Program (2008 -- 2010) and B.Sc. (2004 -- 2008) in Computer Science\\
+	National University of Defence Technology, China\\
+	Promoted to the Master's Program w/o Entrance Examination (an honor for the top 8\%)\\
+	Promoted to the Doctoral Program w/o M.Eng. degree (an honor for the top 8\%)\\
+	GPA: 3.78/4.0
+	
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\head{Journal Publications}
+
+	\begin{enumerate}
+		\item Rui Ma*, Honghua Li*, Changqing Zou, Zicheng Liao, Xin Tong, and Hao Zhang (*joint first authors) \\ 
+		\textit{Action-Driven 3D Indoor Scene Evolution} \\
+		\textbf{ACM Transactions on Graphics (SIGGRAPH Asia 2016), 35(6).}
+		
+		\item Changqing Zou, Tianfan Xue, Xiaojiang Peng, Honghua Li, Baocheng Zhang, Ping Tan, and Jianzhuang Liu\\
+		\textit{An Example-Based Approach to 3D Man-made Object Reconstruction from Line Drawings}\\
+		\textbf{Pattern Recongnition 2016, to appear.}
+	
+		\item Hao Li, Guowei Wan, Honghua Li, Andrei Sharf, Kai Xu, Baoquan Chen\\
+		\textit{Mobility Fitting Using RANSAC 4D}\\
+		\textbf{Computer Graphics Forum (SGP 2016), 35(5)}.
+		
+		\item Honghua Li*, Ruizhen Hu*, Ibraheem Alhashim, and Hao Zhang (*joint first authors) \\ \textit{Foldabilizing Furniture} \\
+		\textbf{ACM Transactions on Graphics (SIGGRAPH 2015), 34(6).}
+		
+		\item Ruizhen Hu, Honghua Li, Hao Zhang and Daniel Cohen-Or\\ \textit{Approximate Pyramidal Shape	Decomposition} \\
+		\textbf{ACM Transactions on Graphics (SIGGRAPH Asia 2014), 33(6).}
+		
+		\item Ibraheem Alhashim, Honghua Li, Kai Xu, Junjie Cao, Rui Ma, Hao Zhang \\
+		\textit{Topology-Varying 3D Shape Creation via Structural Blending} \\
+		\textbf{ACM Transactions on Graphics (SIGGRAPH 2014), 33(4).}
+		
+		\item Honghua Li, Hao Zhang, Yanzhen Wang, Junjie Cao, Ariel Shamir and Daniel Cohen-Or\\
+		\textit{Curve Style Analysis in a Set of Shapes}\\
+		\textbf{Computer Graphics Forum (Eurographics 2014), 32(6).}
+		
+		\item Honghua Li, Ibraheem Alhashim, Hao Zhang, Ariel Shamir and Daniel Cohen-Or\\
+		\textit{Stackabilization}\\
+		\textbf{ACM Transactions on Graphics (SIGGRAPH Aisa 2012), 31(6).}
+		
+		\item Kai Xu, Honghua Li, Hao Zhang, Daniel Cohen-Or, Yueshan Xiong, and Zhi-Quan Cheng\\
+		\textit{Style-Content Separation by Anisotropic Part Scales}\\
+		\textbf{ACM Transactions on Graphics (SIGGRAPH Aisa 2010), 29(5).}	
+	\end{enumerate}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\head{Other Refereed Publications}
+
+	\begin{enumerate}\setcounter{enumi}{8}
+		\item Honghua Li, and Hao Zhang \\ \textit{Shape Compaction} \\
+		Book chapter in \emph{Perspectives in Shape Analysis}, Dagstuhl Seminar, 2015.\\
+		Editors: M. Breu, A. Bruckstein, P. Maragos, and S. Wuhrer.
+		
+		\item Hao Fang, Zhi-Quan Cheng, Hong-Hua Li, Jun Li, Yin chen, and Gang Dang\\
+		\textit{2D Shape Deformation and Registration Using Structural Graph Nodes} \\
+		International Conference on Computer Animation and Social Agents, short paper, 2010.
+		
+		\item Z.-Q. Cheng, W. Jiang, G. Dang, R. Martin, J. Li, H. Li, Y. Chen, Y. Wang, B. Li, K. Xu, and S. Jin\\
+		\textit{Non-rigid Registration in 3D Implicit Vector Space}\\
+		In Proc. of Shape Modeling International, Aix-en-Provence, France, 2010.
+		
+		\item Jun Li, Zhiquan Cheng, Honghua Li, and Shiyao Jin\\
+		\textit{An algorithm of Laplacian-based 3D surface registration}\\
+		Journal of System Simulation, Vol. 21 Suppl. 1, pp. 113-117, 2009. (In Chinese)
+		
+		\item Honghua Li, Zhiquan Cheng, Jun Li, and Shiyao Jin\\
+		\textit{Mesh Dense Correspondence Computation based on Harmonic Field}\\
+		Journal of System Simulation, Vol. 21 Suppl. 1, pp. 6-9, 2009. (In Chinese)
+		
+		\item Honghua Li, Zhiquan Cheng, Jun Li, and Shiyao Jin\\
+		\textit{3D Surface Correspondence based on SIFT	Features of Depth Image}\\
+		Journal of System Simulation, Vol. 21 Suppl. 1, pp. 15-19, 2009. (In Chinese)
+	\end{enumerate}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\head{Work Experience}
+
+	\textbf{Research Assistant (Supported by iWonder Inc.)}, {Sep. 2012 -- Dec. 2012}\\
+	{Simon Fraser University}, {Canada}\\
+	{Topics: Interactive App for 3D shape assembly on iOS}\\
+	{Faculty: Hao(Richard) Zhang}
+	\\
+	\\
+	\textbf{Teaching Assistant}, {Sep. 2010 -- Aug. 2014}\\
+	{Simon Fraser University}, {Canada}\\
+	{Courses: Data Structure, Intro. to Computer Architecture, Intro. to Computer Graphics}\\
+	{Faculty: David G. Mitchell, Tony Dixon, Hao Zhang, and Ping Tan}\\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\head{Awards \& Honors}
+
+	2014~~ {President's PhD Scholarship, SFU} \\
+	2014~~ {Travel and Minor Research Award, SFU }\\
+	2014~~ {Runner-up of FAS Faculty Heat of 3MT Competition, SFU }\\
+	2013~~ {Graduate Fellowship, SFU }\\
+	2012~~ {Travel and Minor Research Award, SFU }\\
+	2012~~ {Graduate Fellowship, SFU }\\
+	2011~~ {Graduate Fellowship, SFU }\\
+	2010~~ {China Scholar Council 4-year PhD Scholarship}\\
+	2009~~ {Bronze Medal of Graduate English Debating Competition, NUDT }\\
+	2009~~ {Fund of Innovation($<$3\%), NUDT}\\
+	2008~~ {Bronze Medal of Undergraduate Contest in Computer Works, Hunan }\\
+	2008~~ {Galaxy First-Class Scholarship ($<$2\%), NUDT }\\
+	2007~~ {Galaxy Second-Class Scholarship ($<$2\%), NUDT }\\
+	2006~~ {Second Prize of Mathematic Contest in Modeling, Hunan}\\
+	2005--2009~~ {Outstanding Student, NUDT }\\
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\head{Press}
+
+	\textbf{Asian Pacific Post}, \textit{``Fold your toaster into a pocket-square"}, 2015. \\
+	\textbf{SFU News}, \textit{``Computing science grad finds way to create compact furniture"}, 2015.\\
+	\textbf{3DPrint.com}, \textit{``Chinese researchers aim to fold up your whole room with 3D printed, foldable furniture"}, 2015. \\
+	\textbf{South China Morning Post}, \textit{``Move over IKEA: Space-saving foldable furniture may be just a mouse click away"}, 2015.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\head{Professional Service}
+
+	\textit{Reviewer}:  Graphics Interface 2014, Eurographics 2015, Graphical Models 2015, SIGGRAPH 2016, Computer \& Graphics 2016
+	
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\head{References}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+	\textbf{Hao (Richard) Zhang} &{Simon Fraser Univesity, Canada}\\
+	\textbf{Daniel Cohen-Or} &{Tel Aviv University, Israel}\\
+	\textbf{Baoquan Chen} &{Shandong University, China}\\
+	\textbf{Ariel Shamir} &{Interdisciplinary Center, Israel}\\
+	\textbf{Andrei Sharf} &{Ben-Gurion University, Israel}\\
+	\textbf{Karan Singh} &{University of Toronto, Canada}\\               
+	\textbf{Ping Tan} &{Simon Fraser Univesity, Canada}	
+\end{tabular*}
+
+	
+
+\end{document}
